@@ -1,0 +1,12 @@
+{
+  "name": "smart-farmer-risk-tracker",
+  "version": "1.0.0",
+  "description": "Smart Farmer Crop-Advisory & Micro-Loan Risk Tracker (Flask + MySQL)",
+  "private": true,
+  "scripts": {
+    "setup": "pip install -U -r requirements.txt && python setup_db.py",
+    "start": "python app.py",
+    "docker": "docker compose up --build",
+    "install-deps": "pip install -U -r requirements.txt"
+  }
+}
